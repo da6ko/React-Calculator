@@ -9,7 +9,7 @@ function App() {
   const handleClick = (value) => {
     if (value === '=') {
       try {
-        // Use math.evaluate for safer expression evaluation
+
         setResult(math.evaluate(input).toString());
       } catch (error) {
         setResult('Error');
